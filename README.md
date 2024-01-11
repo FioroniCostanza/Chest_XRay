@@ -17,12 +17,27 @@ The project utilizes a range of technologies and tools for its implementation. K
 
 ## Setup
 
-## Data Preprocessing
+### Cloning the repository
+Run this command to download the repository:`git clone https://github.com/FioroniCostanza/Chest_XRay.git`
 
-### Data Cleaning
+### Dependencies
+To Install the necessary libraries you just need to run their installation commands, like:
+```
+pip install tensorflow
+pip install keras
+```
+already provided in this file `Xray_chest.ipynb`.
 
-### Data Augmentation
+## Repository File Descriptions
 
+### Preprocessing Scripts
+The following files are used for preprocessing the dataset, ensuring it is clean and standardized for analysis:
+- `black_border.py`: Script to remove black borders from images.
+- `white_border.py`: Script to remove white borders from images.
+- `white_boxes.py`: Script to remove white boxes from images.
+
+### Main Project Notebook
+- `Xray_chest.ipynb`: This Jupyter notebook contains the core of the project. It includes data loading, model building with CNN architectures (DenseNet-121 and ResNet-50), training, evaluation, and results presentation. All major analyses and findings of the project are documented here.
 
 ## References
 1. ”Chest X-ray – 17 Diseases” Kaggle.com. [Online]. Available: https://www.kaggle.com/datasets/trainingdatapro/chest- xray- 17- diseases
