@@ -31,10 +31,13 @@ already provided in this file `Xray_chest.ipynb`.
 ## Repository File Descriptions
 
 ### Preprocessing Scripts
-The following files are used for preprocessing the dataset, ensuring it is clean and standardized for analysis:
+The following files have been used for preprocessing the dataset, ensuring it is clean and standardized for analysis:
 - `black_border.py`: Script to remove black borders from images.
 - `white_border.py`: Script to remove white borders from images.
 - `white_boxes.py`: Script to remove white boxes from images.
+
+To used them is neccessary to manually pick the images with these features and put them in the structure given by the dataset divided in folders named by the class's names.
+The dataset in this repository github already provides the preprocessing, so it's not neccessary to run the three files cited before.
 
 ### Main Project Notebook
 - `Xray_chest.ipynb`: This Jupyter notebook contains the core of the project. It includes data loading, model building with CNN architectures (DenseNet-121 and ResNet-50), training, evaluation, and results presentation. All major analyses and findings of the project are documented here.
