@@ -7,7 +7,8 @@ The dataset for this project is a comprehensive amalgamation of three distinct d
 - **Chest X-Ray Images (Pneumonia)** Comprising 5863 X-ray images in JPEG format, this dataset categorizes images as either depicting pneumonia or being normal [2].
 - **Tuberculosis (TB) Chest X-ray Database** Contains chest X-ray images of normal individuals (3500) and patients diagnosed with Tuberculosis [3].
 
-From these datasets, a novel dataset was curated, improving the scope of the project to encompass 18 disease categories.
+From these datasets, a novel dataset was created, improving the scope of the project to encompass 18 disease categories.
+Its possible to download the novel dataset here: https://drive.google.com/file/d/1a-CUf1Zy5kj-c7gcNMf2KISq855c1s9D/view?pli=1
 
 ## Technologies Used
 The project utilizes a range of technologies and tools for its implementation. Key technologies include:
