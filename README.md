@@ -20,6 +20,12 @@ The project utilizes a range of technologies and tools for its implementation. K
 ### Cloning the repository
 Run this command to download the repository:`git clone https://github.com/FioroniCostanza/Chest_XRay.git`
 
+### If you are working on Google Colab
+Load the dataset in your Drive and remember to replace the code lines of the dataset path.
+
+### If you are working in a Local Environments 
+Remember just to replace the path of the dataset.
+
 ### Dependencies
 To Install the necessary libraries you just need to run their installation commands, like:
 ```
