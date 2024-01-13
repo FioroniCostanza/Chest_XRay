@@ -32,6 +32,7 @@ already provided in this file `Xray_chest.ipynb`.
 
 ### Preprocessing Scripts
 The following files have been used for preprocessing the dataset, ensuring it is clean and standardized for analysis:
+- `rename_images.py`: Script that rename the images after the merge of the three dataset in order to have an homogeneous dataset.
 - `black_border.py`: Script to remove black borders from images.
 - `white_border.py`: Script to remove white borders from images.
 - `white_boxes.py`: Script to remove white boxes from images.
